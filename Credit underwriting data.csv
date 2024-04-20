@@ -1,0 +1,101 @@
+age,education_level,dependents,employment_status,employer_name,total_employment_years,annual_salary,monthly_salary,last_6_months_avg_balance,monthly_expenses,existing_loans_count,assets_value,CIBIL_score,total_credit_limit,current_total_balances,credit_utilization_ratio,payment_history,payment_delays,recent_enquiries,credit_approval
+43,Master's Degree,1,Employed,Acme Technologies,12,3600000,300000,187645,48372,3,1250000,820,550000,124578,23,Excellent,0,0,1
+51,Bachelor's Degree,3,Self-Employed,Smart Solutions,18,2100000,175000,315892,62478,2,3800000,735,400000,197634,49,Fair,2,1,1
+35,High School,0,Employed,Govt of India,8,900000,75000,98765,22345,1,250000,790,150000,37890,25,Excellent,0,0,1
+28,Bachelor's Degree,0,Unemployed,NA,2,0,0,15678,18945,2,0,620,50000,30456,61,Poor,5,3,0
+62,Master's Degree,2,Employed,XYZ Corporation,25,4200000,350000,675432,67895,4,2800000,850,800000,312456,39,Excellent,0,1,1
+46,PhD,0,Self-Employed,Research Solutions,10,1800000,150000,298765,45678,1,1000000,815,300000,87654,29,Excellent,0,0,1
+31,Bachelor's Degree,1,Employed,Sunrise Industries,6,1500000,125000,87654,32109,3,500000,710,250000,124578,50,Fair,4,2,0
+38,Master's Degree,2,Employed,Tech Innovations,9,2700000,225000,345678,51234,2,1800000,775,450000,198765,44,Excellent,1,0,1
+54,High School,0,Employed,Govt of India,20,1200000,100000,567890,28456,1,800000,825,300000,67890,23,Excellent,0,0,1
+24,Bachelor's Degree,0,Employed,Soft Solutions,3,1800000,150000,98765,35678,2,200000,660,250000,124578,50,Fair,2,1,0
+43,Master's Degree,1,Employed,Acme Technologies,12,3600000,300000,187645,48372,3,1250000,820,550000,124578,23,Excellent,0,0,1
+51,Bachelor's Degree,3,Self-Employed,Smart Solutions,18,2100000,175000,315892,62478,2,3800000,735,400000,197634,49,Fair,2,1,1
+35,High School,0,Employed,Govt of India,8,900000,75000,98765,22345,1,250000,790,150000,37890,25,Excellent,0,0,1
+28,Bachelor's Degree,0,Unemployed,NA,2,0,0,15678,18945,2,0,620,50000,30456,61,Poor,5,3,0
+62,Master's Degree,2,Employed,XYZ Corporation,25,4200000,350000,675432,67895,4,2800000,850,800000,312456,39,Excellent,0,1,1
+46,PhD,0,Self-Employed,Research Solutions,10,1800000,150000,298765,45678,1,1000000,815,300000,87654,29,Excellent,0,0,1
+31,Bachelor's Degree,1,Employed,Sunrise Industries,6,1500000,125000,87654,32109,3,500000,710,250000,124578,50,Fair,4,2,0
+38,Master's Degree,2,Employed,Tech Innovations,9,2700000,225000,345678,51234,2,1800000,775,450000,198765,44,Excellent,1,0,1
+54,High School,0,Employed,Govt of India,20,1200000,100000,567890,28456,1,800000,825,300000,67890,23,Excellent,0,0,1
+24,Bachelor's Degree,0,Employed,Soft Solutions,3,1800000,150000,98765,35678,2,200000,660,250000,124578,50,Fair,2,1,0
+49,Bachelor's Degree,2,Employed,Sunrise Technologies,15,2400000,200000,312456,48765,3,1500000,780,400000,156789,39,Excellent,0,1,1
+33,Master's Degree,0,Self-Employed,Smart Solutions,7,1800000,150000,198765,42345,2,800000,745,300000,87654,29,Excellent,0,0,1
+41,High School,3,Employed,Govt of India,12,1080000,90000,145678,28456,1,600000,805,200000,45678,23,Excellent,0,0,1
+27,Bachelor's Degree,0,Unemployed,NA,1,0,0,23456,15678,3,0,580,80000,54321,68,Poor,7,2,0
+57,PhD,0,Employed,Research Institute,20,4800000,400000,765432,75678,2,2500000,870,700000,234567,34,Excellent,0,0,1
+36,Master's Degree,2,Employed,Tech Solutions,8,2100000,175000,287654,48765,3,1200000,725,350000,156789,45,Fair,3,1,0
+45,Bachelor's Degree,1,Self-Employed,Smart Consulting,12,1800000,150000,245678,38456,2,1500000,790,300000,98765,33,Excellent,0,0,1
+30,High School,0,Employed,Govt of India,5,900000,75000,87654,21345,1,400000,765,150000,34567,23,Excellent,0,1,1
+39,Master's Degree,3,Employed,Acme Corp,10,3000000,250000,456789,58765,4,2000000,795,500000,234567,47,Excellent,1,0,1
+52,Bachelor's Degree,0,Self-Employed,Smart Solutions,18,2400000,200000,345678,51234,3,2500000,810,400000,156789,39,Excellent,0,0,1
+25,Bachelor's Degree,0,Employed,Tech Innovations,3,1500000,125000,98765,28456,2,300000,675,200000,87654,44,Fair,2,2,0
+44,Master's Degree,2,Employed,XYZ Corporation,14,3600000,300000,567890,62345,3,2200000,840,600000,198765,33,Excellent,0,0,1
+58,High School,1,Employed,Govt of India,25,1200000,100000,345678,31234,1,1000000,835,250000,56789,23,Excellent,0,0,1
+32,Bachelor's Degree,0,Unemployed,NA,4,0,0,45678,20456,2,0,610,70000,45678,65,Poor,6,3,0
+48,PhD,0,Self-Employed,Research Solutions,15,2400000,200000,387654,48765,1,1800000,845,400000,98765,25,Excellent,0,1,1
+37,Master's Degree,1,Employed,Tech Solutions,9,2700000,225000,312456,53456,2,1500000,765,450000,156789,35,Excellent,0,0,1
+42,Bachelor's Degree,2,Employed,Sunrise Industries,11,1800000,150000,234567,39456,3,1000000,730,300000,112345,37,Fair,2,1,0
+55,Master's Degree,0,Self-Employed,Smart Consulting,20,3000000,250000,567890,58765,2,3500000,860,500000,198765,40,Excellent,0,0,1
+29,High School,1,Employed,Govt of India,6,900000,75000,98765,25678,1,500000,775,150000,34567,23,Excellent,0,0,1
+61,Bachelor's Degree,3,Employed,Acme Corp,25,3600000,300000,678901,65678,4,2800000,825,700000,312456,45,Excellent,1,1,1
+34,Master's Degree,1,Employed,TechSmart Solutions,8,2700000,225000,345678,51234,2,1600000,785,450000,156789,35,Excellent,0,1,1
+40,Bachelor's Degree,2,Self-Employed,Smart Consulting,12,2100000,175000,287654,48765,3,1800000,760,350000,124578,36,Fair,2,0,1
+26,High School,0,Employed,Govt of India,4,840000,70000,65432,18765,1,300000,770,120000,23456,20,Excellent,0,0,1
+53,PhD,0,Employed,Research Institute,18,4500000,375000,765432,75678,2,2200000,860,650000,198765,31,Excellent,0,0,1
+38,Master's Degree,3,Employed,Acme Corp,10,3300000,275000,456789,58765,4,2500000,805,550000,234567,43,Excellent,1,1,1
+45,Bachelor's Degree,0,Self-Employed,Smart Solutions,15,1800000,150000,245678,38456,2,1200000,780,300000,87654,29,Excellent,0,0,1
+31,High School,1,Employed,Govt of India,7,960000,80000,98765,23456,1,500000,775,160000,34567,22,Excellent,0,0,1
+29,Bachelor's Degree,0,Unemployed,NA,3,0,0,23456,15678,2,0,590,50000,34567,69,Poor,5,2,0
+50,Master's Degree,2,Employed,XYZ Corporation,16,4000000,333333,567890,62345,3,2500000,830,650000,234567,36,Excellent,0,1,1
+43,PhD,0,Self-Employed,Research Solutions,12,2700000,225000,387654,48765,1,2000000,855,450000,112345,25,Excellent,0,0,1
+36,Bachelor's Degree,1,Employed,Sunrise Industries,9,1650000,137500,198765,35678,2,800000,740,250000,87654,35,Fair,2,1,0
+47,Master's Degree,2,Employed,Tech Innovations,15,3900000,325000,567890,62345,3,2800000,850,650000,234567,36,Excellent,0,0,1
+52,High School,0,Employed,Govt of India,20,1080000,90000,234567,28456,1,700000,815,200000,45678,23,Excellent,0,0,1
+28,Bachelor's Degree,0,Unemployed,NA,2,0,0,15678,12345,3,0,575,40000,26789,67,Poor,6,3,0
+63,PhD,0,Self-Employed,Research Solutions,25,3600000,300000,765432,75678,2,3500000,880,600000,198765,33,Excellent,0,1,1
+41,Master's Degree,1,Employed,Tech Solutions,11,2400000,200000,345678,48765,2,1400000,795,400000,124578,31,Excellent,0,0,1
+35,Bachelor's Degree,2,Employed,Sunrise Industries,8,1500000,125000,187654,32109,3,900000,720,250000,98765,40,Fair,3,2,0
+60,Master's Degree,0,Self-Employed,Smart Consulting,25,3600000,300000,678901,65678,2,4000000,870,600000,234567,39,Excellent,0,0,1
+33,High School,1,Employed,Govt of India,10,840000,70000,98765,21345,1,400000,755,140000,23456,17,Excellent,0,1,1
+56,Bachelor's Degree,3,Employed,Acme Corp,20,3000000,250000,456789,58765,4,2200000,810,500000,198765,40,Excellent,1,0,1
+35,Master's Degree,1,Employed,XYZ Corporation,8,3500000,291666.67,250000,45000,2,1500000,790,500000,150000,30,Excellent,0,1,1
+28,Bachelor's Degree,0,Self-Employed,ABC Enterprises,4,1800000,150000,120000,30000,1,500000,720,200000,50000,25,Good,1,0,1
+42,PhD,2,Employed,Government Agency,15,2800000,233333.33,400000,60000,3,4000000,800,600000,180000,30,Excellent,0,0,1
+52,High School,1,Employed,Private Company,20,1200000,100000,200000,40000,1,1000000,730,300000,90000,30,Good,2,1,1
+31,Bachelor's Degree,0,Unemployed,NA,0,0,0,50000,20000,0,0,680,50000,10000,20,Fair,0,2,0
+45,Master's Degree,3,Employed,Multinational Corp,12,4500000,375000,500000,80000,4,6000000,820,800000,200000,25,Excellent,0,0,1
+25,Bachelor's Degree,1,Self-Employed,Tech Startup,3,1500000,125000,80000,40000,2,200000,690,150000,75000,50,Fair,2,1,0
+39,PhD,0,Employed,Research Institute,10,3200000,266666.67,300000,50000,1,2000000,780,400000,100000,25,Excellent,0,0,1
+58,High School,2,Employed,Manufacturing Unit,30,900000,75000,150000,30000,0,500000,700,100000,20000,20,Good,1,0,1
+33,Master's Degree,0,Self-Employed,Consulting Firm,7,2500000,208333.33,180000,60000,3,800000,740,300000,120000,40,Good,1,2,1
+27,High School,0,Unemployed,NA,1,0,0,12345,10678,4,0,520,80000,65432,82,Poor,8,4,0
+39,Bachelor's Degree,2,Employed,Sunrise Industries,10,1200000,100000,98765,32109,5,600000,630,200000,156789,78,Fair,6,3,0
+32,Master's Degree,0,Self-Employed,Smart Solutions,6,1500000,125000,145678,38456,3,800000,650,250000,198765,79,Fair,4,2,0
+45,Bachelor's Degree,3,Employed,Govt of India,15,1080000,90000,87654,28456,2,700000,685,180000,112345,62,Fair,3,1,0
+51,High School,1,Employed,Govt of India,18,960000,80000,98765,23456,1,500000,715,160000,78901,49,Fair,2,0,0
+58,PhD,0,Employed,Research Institute,22,4200000,350000,765432,75678,2,2000000,840,650000,234567,36,Excellent,0,1,1
+36,Master's Degree,2,Employed,Tech Solutions,9,2400000,200000,345678,48765,3,1600000,720,400000,198765,50,Fair,4,2,0
+30,Bachelor's Degree,0,Unemployed,NA,3,0,0,15678,12345,4,0,550,60000,45678,76,Poor,9,5,0
+48,Master's Degree,2,Employed,XYZ Corporation,16,3600000,300000,567890,62345,3,2200000,810,600000,312456,52,Fair,3,0,0
+42,High School,0,Employed,Govt of India,14,900000,75000,87654,21345,1,400000,735,150000,56789,38,Fair,2,1,0
+25,Bachelor's Degree,0,Unemployed,NA,2,0,0,23456,15678,3,0,580,50000,38765,78,Poor,7,4,0
+65,PhD,0,Self-Employed,Research Solutions,30,4500000,375000,987654,90123,2,4000000,890,700000,234567,34,Excellent,0,0,1
+34,Master's Degree,1,Employed,Tech Innovations,7,2100000,175000,287654,48765,2,1200000,750,350000,124578,36,Fair,2,1,0
+54,Bachelor's Degree,3,Employed,Sunrise Industries,20,1800000,150000,234567,39456,4,1500000,690,300000,198765,66,Fair,5,2,0
+46,High School,0,Self-Employed,Smart Consulting,12,1200000,100000,145678,28456,3,800000,660,200000,156789,78,Fair,6,3,0
+61,Master's Degree,2,Employed,Acme Corp,25,4800000,400000,765432,75678,4,3500000,860,800000,312456,39,Excellent,1,1,1
+28,Bachelor's Degree,0,Unemployed,NA,2,0,0,23456,15678,3,0,570,50000,38765,78,Poor,8,4,0
+37,Master's Degree,1,Employed,Tech Solutions,10,2700000,225000,387654,53456,2,1800000,780,450000,156789,35,Excellent,0,0,1
+49,Bachelor's Degree,2,Self-Employed,Smart Solutions,16,1800000,150000,245678,38456,4,1400000,670,300000,234567,78,Fair,7,3,0
+43,High School,1,Employed,Govt of India,15,1020000,85000,123456,25678,1,600000,745,170000,45678,27,Excellent,0,0,1
+23,Bachelor's Degree,0,Unemployed,NA,1,0,0,12345,10678,2,0,540,40000,32109,80,Poor,7,4,0
+27,Bachelor's Degree,0,Self-Employed,Tech Innovations,5,2400000,200000,435690,35789,1,0,810,200000,0,15,Excellent,0,0,1
+37,PhD,0,Employed,SRM Institute,2,1080000,90000,75000,25737,1,0,745,100000,12000,12,Excellent,0,1,1
+26,Bachelor's Degree,2,Employed,Slice pvt ltd,5,2800000,230000,89763,59872,3,2500000,650,900000,687934,45,Fair,3,2,0
+47,Bachelor's Degree,2,Employed,Govt of India,19,1800000,150000,394782,30992,3,6983858,780,400000,230045,19,Excellent,1,0,1
+40,Master's Degree,0,Employed,New India assurance,9,2200000,183333.3333,285383,60384,2,839300,685,350000,12435,63,Fair,3,0,0
+59,High School,1,Employed,Govt of India,25,900000,75000,424250,22435,0,404242,750,443433,0,23,Excellent,0,1,1
+22,Bachelor's Degree,0,Unemployed,NA,0,0,0,34320,12424,1,0,710,100000,2342,45,Fair,0,0,0
+32,Bachelor's Degree,2,Self-Employed,NA,8,1230434,100000,98434,60342,4,12108422,760,329412,4135330,27,Execellent,0,1,1
+29,Master's Degree,0,Employed,Disney Hotstar pvt ltd,4,1900024,158335.3333,124248,35452,2,0,500,300000,45872,76,Poor,9,2,0

@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: brevitas
+Version: 0.8.0
+Summary: Quantization-aware training in PyTorch
+Home-page: https://github.com/Xilinx/brevitas
+Author: Alessandro Pappalardo
+Author-email: alessand@xilinx.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.5.1)
+Requires-Dist: packaging
+Requires-Dist: setuptools
+Requires-Dist: dependencies (==2.0.1)
+Requires-Dist: typing-extensions (>=3.7.4)
+Provides-Extra: docs
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: m2r2 ; extra == 'docs'
+Requires-Dist: sphinx (==5.3.0) ; extra == 'docs'
+Requires-Dist: sphinxemoji ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: nbsphinx-link ; extra == 'docs'
+Requires-Dist: sphinx-gallery (==0.10.1) ; extra == 'docs'
+Provides-Extra: export
+Requires-Dist: onnx ; extra == 'export'
+Requires-Dist: onnxoptimizer ; extra == 'export'
+Provides-Extra: finn_integration
+Requires-Dist: bitstring ; extra == 'finn_integration'
+Requires-Dist: toposort ; extra == 'finn_integration'
+Requires-Dist: qonnx ; extra == 'finn_integration'
+Requires-Dist: onnxruntime ; extra == 'finn_integration'
+Requires-Dist: onnx ; extra == 'finn_integration'
+Requires-Dist: onnxoptimizer ; extra == 'finn_integration'
+Provides-Extra: hadamard
+Requires-Dist: scipy ; extra == 'hadamard'
+Provides-Extra: notebook
+Requires-Dist: jupyter ; extra == 'notebook'
+Requires-Dist: nbmake ; extra == 'notebook'
+Provides-Extra: ort_integration
+Requires-Dist: onnxruntime ; extra == 'ort_integration'
+Requires-Dist: onnx ; extra == 'ort_integration'
+Requires-Dist: onnxoptimizer ; extra == 'ort_integration'
+Provides-Extra: stt
+Requires-Dist: pillow (>=4.3.0) ; extra == 'stt'
+Requires-Dist: ruamel.yaml ; extra == 'stt'
+Requires-Dist: requests ; extra == 'stt'
+Requires-Dist: librosa ; extra == 'stt'
+Requires-Dist: inflect ; extra == 'stt'
+Requires-Dist: unidecode ; extra == 'stt'
+Requires-Dist: torch-stft ; extra == 'stt'
+Requires-Dist: sox ; extra == 'stt'
+Requires-Dist: tqdm ; extra == 'stt'
+Requires-Dist: soundfile ; extra == 'stt'
+Requires-Dist: numba ; extra == 'stt'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cases ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: scipy ; extra == 'test'
+Requires-Dist: torchvision ; extra == 'test'
+Provides-Extra: tts
+Requires-Dist: soundfile ; extra == 'tts'
+Requires-Dist: librosa ; extra == 'tts'
+Requires-Dist: numpy ; extra == 'tts'
+Requires-Dist: scipy ; extra == 'tts'
+Requires-Dist: tqdm ; extra == 'tts'
+Requires-Dist: pillow ; extra == 'tts'
+Requires-Dist: pyyaml ; extra == 'tts'
+Provides-Extra: vision
+Requires-Dist: torchvision ; extra == 'vision'
+
+# Brevitas
+
+[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)
+[![Gitter](https://badges.gitter.im/xilinx-brevitas/community.svg)](https://gitter.im/xilinx-brevitas/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![Pytest](https://github.com/Xilinx/brevitas/workflows/Pytest/badge.svg?branch=master)
+![Examples Pytest](https://github.com/Xilinx/brevitas/workflows/Examples%20Pytest/badge.svg?branch=master)
+[![DOI](https://zenodo.org/badge/140494324.svg)](https://zenodo.org/badge/latestdoi/140494324)
+
+Brevitas is a PyTorch library for neural network quantization, with a focus on *quantization-aware training (QAT)*.
+
+**Please note that Brevitas is a research project and not an official Xilinx product.**
+
+If you like this project please consider ⭐ this repo, as it is the simplest and best way to support it. 
+
+If you have issues, comments, or are just looking for advices on training quantized neural networks, open an issue or a discussion.
+
+## Cite as
+
+If you adopt Brevitas in your work, please cite it as:
+```
+@software{brevitas,
+  author       = {Alessandro Pappalardo},
+  title        = {Xilinx/brevitas},
+  year         = {2022},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3333552},
+  url          = {https://doi.org/10.5281/zenodo.3333552}
+}
+```
+
+
+## History
+
+- *2023/01/10* - Release version 0.8.0, see the [release notes](https://github.com/Xilinx/brevitas/releases/tag/v0.8.0).
+- *2021/12/13* - Release version 0.7.1, fix a bunch of issues. Added TVMCon 2021 tutorial notebook.
+- *2021/11/03* - Re-release version 0.7.0 (build 1) on PyPI to fix a packaging issue.
+- *2021/10/29* - Release version 0.7.0, see the [release notes](https://github.com/Xilinx/brevitas/releases/tag/v0.7.0).
+- *2021/06/04* - Release version 0.6.0, see the [release notes](https://github.com/Xilinx/brevitas/releases/tag/v0.6.0).
+- *2021/05/24* - Release version 0.5.1, fix a bunch of minor issues. See [release notes](https://github.com/Xilinx/brevitas/releases/tag/v0.5.1).
+- *2021/05/06* - Release version 0.5.0, see the [release notes](https://github.com/Xilinx/brevitas/releases/tag/v0.5.0). 
+- *2021/03/15* - Release version 0.4.0, add support for \_\_torch_function\_\_ to QuantTensor.
+- *2021/03/04* - Release version 0.3.1, fix bug w/ act initialization from statistics w/ IGNORE_MISSING_KEYS=1.
+- *2021/03/01* - Release version 0.3.0, implements enum and shape solvers within extended dependency injectors. This allows declarative quantizers to be self-contained.
+- *2021/02/04* - Release version 0.2.1, includes various bugfixes of QuantTensor w/ zero-point.
+- *2021/01/30* - First release version 0.2.0 on PyPI.
+
+## Requirements
+
+* Python >= 3.7 .
+* [Pytorch](https://pytorch.org) >= 1.5.1 .
+* Windows, Linux or macOS.
+* GPU training-time acceleration (*Optional* but recommended).
+
+## Installation
+
+You can install the latest release from PyPI:
+```bash
+pip install brevitas
+```
+
+## Getting started
+
+Check out available info at https://xilinx.github.io/brevitas/getting_started .
+
+
+
+
+
+
